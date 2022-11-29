@@ -1,0 +1,52 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+background-image: url("8.jpg"); background-repeat: no-repeat; background-size: cover;
+align-items: center; justify-content: center; display: flex;
+font-family:sans-serif;
+}
+.container { position:center; width:450px; height: auto;
+background: linear-gradient(to right, #9b6666 0%, #e0ae8f 100%);
+
+}
+.label{
+padding:20px 130px; font-size: 35px;
+font-weight: bold; color:black;
+}
+.form{
+padding: 20px 40px;
+}
+.form .font{
+font-size: 18px; color:black;
+ 
+margin:5px 0;
+}
+.form .sub { height: 40px; width:250px; padding: 0 5px; font-size: 18px; outline:none;
+border:1px solid silver;
+}
+.form .font2{ margin-top: 30px;
+}
+.form button{ margin:35px 0 30px 0; height: 45px; width:175px; background:#296b6a ; color:white;
+font-size: 20px; outline: none; cursor: pointer; border-radius: 0px;
+border: 1px solid white; transition: .5s;
+}
+.form .nor{ color:black;
+}
+.form button:hover{ background:#56acb6 ;
+}
+.form #uname_error,
+.form #email_error,
+.form #pass_error,
+.form #pass2_error,
+.form #mobile_error,
+.form #addres_error{ margin-top: 5px; width: 345px;
+font-size: 18px; color:firebrick; font-size: 14px; padding: 5px 8px; display: none;
+}
+a{
+text-decoration: none; color:white;
+}
+img{
+width: 200px; height:267px ;
+}

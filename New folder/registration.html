@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Registration Page</title>
+<link rel="stylesheet" href="body.css"/>
+</head> 
+<style>
+   body{
+    background-image: url("11.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+   }
+   
+   </style>
+<body>
+<div class="container">
+<h1 class="label">Registration</h1>
+<form	class="form"	method="post"	action="catalog.html"	name="form" onsubmit="return validated()">
+<table>
+<tr>
+<td><div class="font">customer id</div></td>
+<td><br><input	class="sub" autocomplete="off" type="text" name="cid"><div id="cid_error">Enter your id</div></td>
+</tr>
+<tr>
+<td><div class="font">customer code</div></td>
+<td><br><input	class="sub" autocomplete="off" type="text" name="ccode"><div id="ccode_error">Enter your customer code</div></td>
+</tr>
+<tr>
+<td><div class="font">customer name</div></td>
+<td><br><input	class="sub" autocomplete="off" type="text" name="cname"><div id="cname_error">Enter your name</div></td>
+</tr>
+<tr>
+<td><div class="font">email</div></td>
+<td><br><input	class="sub" autocomplete="off" type="email" name="email"><div id="email_error">Enter your email</div></td>
+</tr>
+<tr>
+<td><div class="font">password</div></td>
+<td><br>	<input	class="sub"	type="password"	name="passwordd"><div id="pass_error">Enter your password</div></td>
+</tr>
+<tr>
+<td><div class="font">mobile</div> </td>
+<td><br><input class="sub" autocomplete="off" type="number" name="mobile"><div id="mobile_error">Enter your number</div></td>
+</tr>
+<tr>
+<td><div class="font">address</div> </td>
+<td><br><input class="sub" autocomplete="off" type="address" name="addres"><div id="addres_error">Enter your address</div></td>
+</tr>
+</table><br><p class="nor">Have an account? <a href="loginpage1.html">login here</a> </p>
+<button type="submit">REGISTER</button>
+</form>
+</div>
+<script src="validation.js"></script>
+</body>
+</html>
